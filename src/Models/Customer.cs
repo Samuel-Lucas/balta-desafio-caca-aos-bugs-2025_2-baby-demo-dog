@@ -1,10 +1,12 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace BugStore.Models;
 
-public class Customer
-{
-    public Guid Id { get; set; }
+public class Customer {
+    [Key]
+    public string Id { get; set; }
     public string Name { get; set; }
     public string Email { get; set; }
     public string Phone { get; set; }
-    public DateTime BirthDate { get; set; }
+    public string? BirthDate { get; set; }
 }

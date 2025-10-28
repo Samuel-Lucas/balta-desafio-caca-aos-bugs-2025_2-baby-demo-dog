@@ -2,8 +2,8 @@ namespace BugStore.Models;
 
 public class Order
 {
-    public Guid Id { get; set; }
-    public Guid CustomerId { get; set; }
+    public string Id { get; set; }
+    public string CustomerId { get; set; }
     public Customer Customer { get; set; }
     
     public DateTime CreatedAt { get; set; }
