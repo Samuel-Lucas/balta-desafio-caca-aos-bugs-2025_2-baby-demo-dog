@@ -1,6 +1,6 @@
-namespace BugStore.Requests.Products;
+namespace BugStore.Responses.Products;
 
-public class Update
+public class GetByIdResponse
 {
     public string Title { get; set; }
     public string Description { get; set; }

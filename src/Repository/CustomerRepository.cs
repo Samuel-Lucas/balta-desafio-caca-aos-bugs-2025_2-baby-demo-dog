@@ -1,6 +1,5 @@
 using BugStore.Data;
 using BugStore.Models;
-using BugStore.Requests.Customers;
 using Microsoft.EntityFrameworkCore;
 using src.Repository.Contracts;
 
